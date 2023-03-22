@@ -1,13 +1,21 @@
-::-webkit-scrollbar-track {
+.slide-to-delete {
+  height: 30px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 50px;
+  height: 30px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
   display: none;
 }
 
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  height: 0;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #6b7280;
-  height: 1px;
+.slide-to-delete:hover .delete-btn {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
