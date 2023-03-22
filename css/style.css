@@ -1,3 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;/*# sourceMappingURL=style.css.map */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+  height: 1px;
+}/*# sourceMappingURL=style.css.map */
